@@ -6,6 +6,6 @@ package com.ezerbel.springcloud.config;
  */
 
 public class Config {
-    // Str
+    // Str test
     private String str = "testStr";
 }
