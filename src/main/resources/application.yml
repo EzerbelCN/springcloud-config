@@ -9,13 +9,11 @@ spring:
       server:
         git:
           uri: git@github.com:EzerbelCN/springcloud-config.git #github上仓库的名字
-          search-paths  :
+          search-paths:
             - springcloud-config
       label: master
 
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: true
-    serviceUrl:
-      dafaultZone: http://eureka7001.com:7001/eureka/
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
