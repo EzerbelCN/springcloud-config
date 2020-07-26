@@ -8,9 +8,11 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:EzerbelCN/springcloud-config.git #github上仓库的名字
+          uri: https://github.com/EzerbelCN/springcloud-config #github上仓库的名字
           search-paths:
-            - springcloud-config
+            - springcloud-config/configs
+          username: EzerbelCN@gmail.com
+          password: 1!QazxsW2@3#Edc
       label: master
 
 eureka:
